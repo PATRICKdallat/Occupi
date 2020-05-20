@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="Occupi.Views.AddVenuePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="New Vacancy">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="Cancel_Clicked" Text="Cancel" />
+        <ToolbarItem Clicked="Save_Clicked" Text="Save" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Padding="15" Spacing="20">
+            <Entry
+                FontSize="Small"
+                Placeholder="Vacancy Name"
+                Text="{Binding Vacancy.Name}" />
+            <Editor
+                Margin="0"
+                FontSize="Small"
+                Placeholder="Vacancy Description"
+                Text="{Binding Vacancy.Description}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

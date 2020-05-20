@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="Occupi.Views.VenueDetailsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout Padding="15" Spacing="20">
+            <Label FontSize="Medium" Text="Room Name:" />
+            <Label FontSize="Small" Text="{Binding Venue.Name}" />
+            <Label FontSize="Medium" Text="Description:" />
+            <Label FontSize="Small" Text="{Binding Venue.Description}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

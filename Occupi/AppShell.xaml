@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:Occupi.Views"
+       FlyoutBackgroundColor="{StaticResource NavigationPrimary}"
+       FlyoutBehavior="Flyout"
+       FlyoutHeaderBehavior="CollapseOnScroll"
+       Title="Occupi"
+       x:Class="Occupi.AppShell">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="NavigationPrimary">#ed1f30</Color>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.DisabledColor" Value="#ed1f30ff" />
+                <Setter Property="Shell.UnselectedColor" Value="#ed1f30ff" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="White" />
+                <Setter Property="Shell.TabBarUnselectedColor" Value="LightPink" />
+                <Setter Property="Shell.TabBarTitleColor" Value="White" />
+            </Style>
+            <!--<Style TargetType="">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="VisualStateGroups">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="White"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Yellow"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Gray"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>-->
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <Shell.FlyoutHeader>
+        <Grid>
+            <Image Aspect="AspectFill" 
+                   Source="icon.png" 
+                   Opacity="0.6" />
+            <Label Text="Occupi" 
+                   TextColor="White" 
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home" Icon="tab_feed.png">
+        <Tab Title="Venues" Icon="tab_feed.png">
+            <ShellContent Title="Venues"
+                          Icon="tab_about.png"
+                          Style="{StaticResource BaseStyle}"
+                          ContentTemplate="{DataTemplate views:VenuesPage}" />
+        </Tab>
+        <Tab Title="Map" Icon="tab_about.png">
+            <ShellContent Title="Maps"
+                          Icon="tab_about.png"
+                          Style="{StaticResource BaseStyle}"
+                          ContentTemplate="{DataTemplate views:MapPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Maps" Icon="tab_feed.png">
+        <ShellContent Style="{StaticResource BaseStyle}"
+                      Title="Maps"
+                      Icon="tab_about.png"
+                      ContentTemplate="{DataTemplate views:MapPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Events" Icon="tab_about.png">
+        <ShellContent Style="{StaticResource BaseStyle}"
+                      Title="Events"
+                      Icon="tab_about.png"
+                      ContentTemplate="{DataTemplate views:EventsPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="About" Icon="tab_about.png">
+        <ShellContent Style="{StaticResource BaseStyle}"
+                      Title="About Page"
+                      Icon="tab_about.png"
+                      ContentTemplate="{DataTemplate views:AboutPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Settings" Icon="tab_feed.png">
+        <ShellContent Style="{StaticResource BaseStyle}"
+                      Title="Settings"
+                      Icon="tab_feed.png"
+                      ContentTemplate="{DataTemplate views:SettingsPage}" />
+    </FlyoutItem>
+
+</Shell>

@@ -1,0 +1,13 @@
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/bin/Debug/netstandard2.0/PAT.Portable.deps.json
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/bin/Debug/netstandard2.0/PAT.Portable.dll
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/bin/Debug/netstandard2.0/PAT.Portable.pdb
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/bin/Debug/netstandard2.0/PAT.Services.dll
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/bin/Debug/netstandard2.0/PAT.Services.pdb
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.csprojAssemblyReference.cache
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.AssemblyInfoInputs.cache
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.AssemblyInfo.cs
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.csproj.CoreCompileInputs.cache
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.csproj.CopyComplete
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.dll
+/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/Debug/netstandard2.0/PAT.Portable.pdb

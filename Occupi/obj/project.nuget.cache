@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ez7/wn2GNr0GgGCf4IzMEyIMc/bc2wuTNND6XOWkgJOa7kW+EiuAodKpeKZDQQd0IURJcc+qZyjjyBETu7VWOQ==",
+  "success": true,
+  "projectFilePath": "/Users/patrick.dallat/Projects/Occupi/Occupi/Occupi.csproj",
+  "expectedPackageFiles": [
+    "/Users/patrick.dallat/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/xamarin.build.download/0.10.0/xamarin.build.download.0.10.0.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/xamarin.forms/4.6.0.726/xamarin.forms.4.6.0.726.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/xamarin.forms.googlemaps/3.3.0/xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+    "/Users/patrick.dallat/.nuget/packages/xamarin.forms.googlemaps.bindings/2.2.0/xamarin.forms.googlemaps.bindings.2.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
