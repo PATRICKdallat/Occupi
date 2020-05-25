@@ -1,4 +1,4 @@
-﻿using Occupi.Portable.Models;
+﻿using Occupi.Models;
 using Occupi.ViewModels;
 using Xamarin.Forms;
 

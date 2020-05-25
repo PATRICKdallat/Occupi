@@ -10,7 +10,7 @@
       "PAT.Portable/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "PAT.Services": "1.0.0",
+          "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.726"
         },
         "runtime": {
@@ -57,14 +57,6 @@
             "fileVersion": "4.6.0.446"
           }
         }
-      },
-      "PAT.Services/1.0.0": {
-        "dependencies": {
-          "Xamarin.Essentials": "1.5.3.2"
-        },
-        "runtime": {
-          "PAT.Services.dll": {}
-        }
       }
     }
   },
@@ -108,11 +100,6 @@
       "sha512": "sha512-NI7iL5NnrQN/gCyoHLlexcDndNin67hFV7ObG8QQU2zbEi15B1SRaAsuiNeXVYAHfXg3/amqryqzGd+3R6lyZQ==",
       "path": "xamarin.forms/4.6.0.726",
       "hashPath": "xamarin.forms.4.6.0.726.nupkg.sha512"
-    },
-    "PAT.Services/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

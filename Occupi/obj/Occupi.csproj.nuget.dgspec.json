@@ -25,8 +25,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj": {
-                "projectPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj"
+              "/Users/patrick.dallat/Projects/Occupi/PAT.Portable/PAT.Portable.csproj": {
+                "projectPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Portable/PAT.Portable.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj": {
+    "/Users/patrick.dallat/Projects/Occupi/PAT.Portable/PAT.Portable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj",
-        "projectName": "PAT.Services",
-        "projectPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj",
+        "projectUniqueName": "/Users/patrick.dallat/Projects/Occupi/PAT.Portable/PAT.Portable.csproj",
+        "projectName": "PAT.Portable",
+        "projectPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Portable/PAT.Portable.csproj",
         "packagesPath": "/Users/patrick.dallat/.nuget/packages/",
-        "outputPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Services/obj/",
+        "outputPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Portable/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/patrick.dallat/.config/NuGet/NuGet.Config"
@@ -122,6 +122,10 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
             }
           },
           "imports": [

@@ -226,6 +226,6 @@
 -r=/Users/patrick.dallat/.nuget/packages/xamarin.google.ios.maps/3.5.0/lib/xamarinios10/Google.Maps.dll
 -r=/Users/patrick.dallat/Projects/Occupi/Occupi/bin/Debug/netstandard2.0/Occupi.dll
 -r=/Users/patrick.dallat/.nuget/packages/xamarin.forms/4.6.0.726/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
--r=/Users/patrick.dallat/Projects/Occupi/Occupi/bin/Debug/netstandard2.0/PAT.Services.dll
+-r=/Users/patrick.dallat/Projects/Occupi/Occupi/bin/Debug/netstandard2.0/PAT.Portable.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/Occupi.iOS.exe

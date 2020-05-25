@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
-using Occupi.Portable.Models;
-using PAT.Services;
+using Occupi.Models;
+using PAT.Portable.Services;
 
 namespace Occupi.ViewModels
 {

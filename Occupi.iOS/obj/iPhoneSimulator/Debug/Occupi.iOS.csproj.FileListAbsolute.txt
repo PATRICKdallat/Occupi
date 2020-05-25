@@ -47,10 +47,10 @@
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/Google.Maps.dll
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/Occupi.dll
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/PAT.Services.dll
+/Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/PAT.Portable.dll
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/Occupi.pdb
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/PAT.Services.pdb
+/Users/patrick.dallat/Projects/Occupi/Occupi.iOS/bin/iPhoneSimulator/Debug/PAT.Portable.pdb
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/ibtool/_BundleResourceWithLogicalName.items
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_PartialAppManifest.items
 /Users/patrick.dallat/Projects/Occupi/Occupi.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_BundleResourceWithLogicalName.items

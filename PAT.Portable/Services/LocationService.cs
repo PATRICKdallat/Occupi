@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using PAT.Portable.Services;
-using PAT.Services;
 using Xamarin.Essentials;
-//using Xamarin.Forms.GoogleMaps;
 
 [assembly: Xamarin.Forms.Dependency(typeof(LocationService))]
 namespace PAT.Portable.Services

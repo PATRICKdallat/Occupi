@@ -63,19 +63,6 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
-      },
-      "PAT.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Essentials": "1.5.3.2"
-        },
-        "compile": {
-          "bin/placeholder/PAT.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PAT.Services.dll": {}
-        }
       }
     }
   },
@@ -631,17 +618,12 @@
         "xamarin.forms.4.6.0.726.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "PAT.Services/1.0.0": {
-      "type": "project",
-      "path": "../PAT.Services/PAT.Services.csproj",
-      "msbuildProject": "../PAT.Services/PAT.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "PAT.Services >= 1.0.0",
+      "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.6.0.726"
     ]
   },
@@ -668,11 +650,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj": {
-              "projectPath": "/Users/patrick.dallat/Projects/Occupi/PAT.Services/PAT.Services.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -689,6 +667,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.5.3.2, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

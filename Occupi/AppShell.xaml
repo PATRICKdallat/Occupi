@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Shell xmlns="http://xamarin.com/schemas/2014/forms"
-       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:views="clr-namespace:Occupi.Views"
-       FlyoutBackgroundColor="{StaticResource NavigationPrimary}"
-       FlyoutBehavior="Flyout"
-       FlyoutHeaderBehavior="CollapseOnScroll"
-       Title="Occupi"
-       x:Class="Occupi.AppShell">
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Occupi.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:Occupi.Views"
+    Title="Occupi"
+    FlyoutBackgroundColor="{StaticResource NavigationPrimary}"
+    FlyoutBehavior="Flyout"
+    FlyoutHeaderBehavior="CollapseOnScroll">
 
     <Shell.Resources>
         <ResourceDictionary>
@@ -48,64 +49,72 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>-->
-            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style BasedOn="{StaticResource BaseStyle}" TargetType="TabBar" />
         </ResourceDictionary>
     </Shell.Resources>
 
     <Shell.FlyoutHeader>
         <Grid>
-            <Image Aspect="AspectFill" 
-                   Source="icon.png" 
-                   Opacity="0.6" />
-            <Label Text="Occupi" 
-                   TextColor="White" 
-                   FontAttributes="Bold" 
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center" />
+            <Image
+                Aspect="AspectFill"
+                Opacity="0.6"
+                Source="icon.png" />
+            <Label
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                Text="Occupi"
+                TextColor="White"
+                VerticalTextAlignment="Center" />
         </Grid>
     </Shell.FlyoutHeader>
 
     <FlyoutItem Title="Home" Icon="tab_feed.png">
         <Tab Title="Venues" Icon="tab_feed.png">
-            <ShellContent Title="Venues"
-                          Icon="tab_about.png"
-                          Style="{StaticResource BaseStyle}"
-                          ContentTemplate="{DataTemplate views:VenuesPage}" />
+            <ShellContent
+                Title="Venues"
+                ContentTemplate="{DataTemplate views:VenuesPage}"
+                Icon="tab_about.png"
+                Style="{StaticResource BaseStyle}" />
         </Tab>
         <Tab Title="Map" Icon="tab_about.png">
-            <ShellContent Title="Maps"
-                          Icon="tab_about.png"
-                          Style="{StaticResource BaseStyle}"
-                          ContentTemplate="{DataTemplate views:MapPage}" />
+            <ShellContent
+                Title="Maps"
+                ContentTemplate="{DataTemplate views:MapPage}"
+                Icon="tab_about.png"
+                Style="{StaticResource BaseStyle}" />
         </Tab>
     </FlyoutItem>
 
     <FlyoutItem Title="Maps" Icon="tab_feed.png">
-        <ShellContent Style="{StaticResource BaseStyle}"
-                      Title="Maps"
-                      Icon="tab_about.png"
-                      ContentTemplate="{DataTemplate views:MapPage}" />
+        <ShellContent
+            Title="Maps"
+            ContentTemplate="{DataTemplate views:MapPage}"
+            Icon="tab_about.png"
+            Style="{StaticResource BaseStyle}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Events" Icon="tab_about.png">
-        <ShellContent Style="{StaticResource BaseStyle}"
-                      Title="Events"
-                      Icon="tab_about.png"
-                      ContentTemplate="{DataTemplate views:EventsPage}" />
+        <ShellContent
+            Title="Events"
+            ContentTemplate="{DataTemplate views:EventsPage}"
+            Icon="tab_about.png"
+            Style="{StaticResource BaseStyle}" />
     </FlyoutItem>
 
     <FlyoutItem Title="About" Icon="tab_about.png">
-        <ShellContent Style="{StaticResource BaseStyle}"
-                      Title="About Page"
-                      Icon="tab_about.png"
-                      ContentTemplate="{DataTemplate views:AboutPage}" />
+        <ShellContent
+            Title="About Page"
+            ContentTemplate="{DataTemplate views:SettingsPage}"
+            Icon="tab_about.png"
+            Style="{StaticResource BaseStyle}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Settings" Icon="tab_feed.png">
-        <ShellContent Style="{StaticResource BaseStyle}"
-                      Title="Settings"
-                      Icon="tab_feed.png"
-                      ContentTemplate="{DataTemplate views:SettingsPage}" />
+        <ShellContent
+            Title="Settings"
+            ContentTemplate="{DataTemplate views:SettingsPage}"
+            Icon="tab_feed.png"
+            Style="{StaticResource BaseStyle}" />
     </FlyoutItem>
 
 </Shell>

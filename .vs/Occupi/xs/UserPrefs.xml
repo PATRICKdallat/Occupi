@@ -1,13 +1,20 @@
 ﻿<Properties StartupConfiguration="{9A79B050-F191-406F-9691-E3C6D7F3C323}|Default">
   <MonoDevelop.Ide.ItemProperties.Occupi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD1A08D1-F653-46F1-8124-4B9A8E28B74D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Occupi.Android/MainActivity.cs">
-    <Files>
-      <File FileName="Occupi.Android/MainActivity.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Occupi" expanded="True" selected="True" />
+          <Node name="Occupi" expanded="True">
+            <Node name="Occupi" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="AppShell.xaml" selected="True" />
+            </Node>
+            <Node name="Occupi.iOS" expanded="True" />
+            <Node name="PAT.Portable" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Occupi.Portable.Models
+namespace Occupi.Models
 {
     public class User
     {

@@ -1,10 +1,10 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.GoogleMaps;
 using System.Collections.Generic;
-using Occupi.Portable.Models;
+using Occupi.Models;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
-using PAT.Services;
+using PAT.Portable.Services;
 
 namespace Occupi.Views
 {

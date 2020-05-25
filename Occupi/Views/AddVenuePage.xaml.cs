@@ -1,6 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
-using Occupi.Portable.Models;
+using Occupi.Models;
 
 namespace Occupi.Views
 {

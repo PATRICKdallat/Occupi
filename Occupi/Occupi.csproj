@@ -19,6 +19,6 @@
     <Folder Include="Converters\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PAT.Services\PAT.Services.csproj" />
+    <ProjectReference Include="..\PAT.Portable\PAT.Portable.csproj" />
   </ItemGroup>
 </Project>

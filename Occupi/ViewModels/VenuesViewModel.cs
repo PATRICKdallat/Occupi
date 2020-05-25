@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Occupi.Portable.Models;
+using Occupi.Models;
 using Occupi.Views;
 using Xamarin.Forms;
 
