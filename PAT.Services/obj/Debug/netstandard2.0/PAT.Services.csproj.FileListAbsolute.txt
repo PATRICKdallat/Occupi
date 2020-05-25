@@ -1,8 +1,0 @@
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/bin/Debug/netstandard2.0/PAT.Services.deps.json
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/bin/Debug/netstandard2.0/PAT.Services.dll
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/bin/Debug/netstandard2.0/PAT.Services.pdb
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/obj/Debug/netstandard2.0/PAT.Services.AssemblyInfoInputs.cache
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/obj/Debug/netstandard2.0/PAT.Services.AssemblyInfo.cs
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/obj/Debug/netstandard2.0/PAT.Services.csproj.CoreCompileInputs.cache
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/obj/Debug/netstandard2.0/PAT.Services.dll
-/Users/patrick.dallat/Projects/Occupi/PAT.Services/obj/Debug/netstandard2.0/PAT.Services.pdb
