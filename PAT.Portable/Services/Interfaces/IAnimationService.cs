@@ -1,4 +1,4 @@
-﻿namespace PAT.Portable.Services
+﻿namespace PAT.Portable.Services.Interfaces
 {
     public interface IAnimationService
     {

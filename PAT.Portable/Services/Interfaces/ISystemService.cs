@@ -2,7 +2,7 @@
 using System.Threading;
 using Xamarin.Essentials;
 
-namespace PAT.Portable.Services
+namespace PAT.Portable.Services.Interfaces
 {
     public interface ISystemService
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using PAT.Portable.EventArguments;
 
-namespace PAT.Portable.Services
+namespace PAT.Portable.Services.Interfaces
 {
     public interface IConnectivityService : IDisposable
     {

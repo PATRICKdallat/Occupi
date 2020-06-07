@@ -117,4 +117,9 @@
             Style="{StaticResource BaseStyle}" />
     </FlyoutItem>
 
+    <MenuItem
+        Command="{Binding BecomeAHostCommand}"
+        IconImageSource="tab_about.png"
+        Text="Become a Host" />
+
 </Shell>

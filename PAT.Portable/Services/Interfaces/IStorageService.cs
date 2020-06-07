@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace PAT.Portable.Services
+namespace PAT.Portable.Services.Interfaces
 {
     public interface IStorageService
     {
@@ -9,8 +9,6 @@ namespace PAT.Portable.Services
         void ClearPreferences(string containerToClear);
         void ClearSecuredStorageValue();
         Task CopyToClipboard(string text);
-        string GetCacheDirectoryFilePath(string fileName);
-        string GetDataDirectoryFilePath(string fileName);
         int GetPreference(string key, int value);
         bool GetPreference(string key, bool value);
         long GetPreference(string key, long value);
@@ -27,11 +25,8 @@ namespace PAT.Portable.Services
         DateTime GetPreference(string key, DateTime value, string container);
         Task<string> GetSecuredStorageValue(string key);
         Task<string> PasteFromClipboard(string text);
-        Task<string> ReadFileFromAppPackage(string fileName);
         void RemovePreference(string key);
         void RemovePreferences(string key, string container);
-        void SaveFileToCacheDirectory(string fileName, string text);
-        void SaveFileToDataDirectory(string fileName, string text);
         void SetPreference(string key, int value);
         void SetPreference(string key, long value);
         void SetPreference(string key, bool value);

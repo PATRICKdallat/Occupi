@@ -1,7 +1,5 @@
 ﻿using System;
-using System.IO;
 using System.Threading.Tasks;
-using PAT.Portable.Services;
 using Xamarin.Essentials;
 
 namespace PAT.Portable.Services
@@ -49,48 +47,8 @@ namespace PAT.Portable.Services
         public void RemovePreference(string key) => Preferences.Remove(key);
         public void RemovePreferences(string key, string container) => Preferences.Remove(key, container);
 
-
         public async Task<string> GetSecuredStorageValue(string key) => await SecureStorage.GetAsync(key);
-
         public async Task SetSecuredStorageValue(string key, string value) => await SecureStorage.SetAsync(key, value);
-
         public void ClearSecuredStorageValue() => SecureStorage.RemoveAll();
-
-        public async Task<string> ReadFileFromAppPackage(string fileName)
-        {
-            string file = "";
-            using (var stream = await FileSystem.OpenAppPackageFileAsync(fileName))
-            {
-                using (var reader = new StreamReader(stream))
-                {
-                    file = await reader.ReadToEndAsync();
-                }
-            }
-            return file;
-        }
-
-        public string GetCacheDirectoryFilePath(string fileName)
-        {
-            var filePath = Path.Combine(FileSystem.CacheDirectory, fileName);
-            return File.ReadAllText(filePath);
-        }
-
-        public string GetDataDirectoryFilePath(string fileName)
-        {
-            var filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
-            return File.ReadAllText(filePath);
-        }
-
-        public void SaveFileToCacheDirectory(string fileName, string text)
-        {
-            var filePath = Path.Combine(FileSystem.CacheDirectory, fileName);
-            File.WriteAllText(filePath, text);
-        }
-
-        public void SaveFileToDataDirectory(string fileName, string text)
-        {
-            var filePath = Path.Combine(FileSystem.AppDataDirectory, fileName);
-            File.WriteAllText(filePath, text);
-        }
     }
 }

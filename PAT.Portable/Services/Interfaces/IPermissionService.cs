@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using static Xamarin.Essentials.Permissions;
 
-namespace PAT.Portable.Services
+namespace PAT.Portable.Services.Interfaces
 {
     public interface IPermissionService
     {

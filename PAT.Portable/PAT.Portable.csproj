@@ -6,6 +6,10 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="IoC\" />
+    <Folder Include="Services\Implementation\" />
+    <Folder Include="Services\Utilities\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />
